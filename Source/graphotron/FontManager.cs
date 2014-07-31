@@ -1,7 +1,6 @@
-using System;
 using System.Collections.Generic;
 
-namespace olexlib
+namespace graphotron
 {
 	static class FontManager
 	{
@@ -263,7 +262,7 @@ namespace olexlib
 			public static readonly bool[] C13R15 = new[] { false, false, false, false, false, false, false, false, false, false, true, true, true, false, false, true, true, true, false, false, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false };
 			public static readonly bool[] C14R15 = new[] { false, false, false, false, false, false, false, false, false, false, true, true, true, false, false, true, true, true, false, false, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false };
 			public static readonly bool[] C15R15 = new[] { false, false, false, false, false, false, false, false, false, false, true, true, true, false, false, true, true, true, false, false, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false };
-			
+
 			public static readonly Dictionary<char, bool[]> CharDict = new Dictionary<char, bool[]>
 			{
 				{'\0', C0R0},
